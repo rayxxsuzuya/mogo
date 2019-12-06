@@ -1,0 +1,102 @@
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.page-header {
+  background-image: url(../img/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-header .container .navbar {
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 0 !important;
+}
+
+.page-header .container .navbar .logo {
+  vertical-align: text-top;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item {
+  margin-right: 58px;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item:nth-child(7) {
+  margin-right: 0;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item:nth-child(6) {
+  margin-right: 26px;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item:nth-child(5) {
+  margin-right: 38px;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item:nth-child(4) {
+  margin-right: 44px;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item:nth-child(3) {
+  margin-right: 44px;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item:nth-child(2) {
+  margin-right: 44px;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item:nth-child(1) {
+  margin-right: 42px;
+}
+
+.page-header .container .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
+  font-size: 0.875em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.page-header .container .header-main span {
+  margin-top: 141px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 4.5em;
+}
+
+.page-header .container .header-main h1 {
+  font-size: 9.375em;
+  font-family: "Montserrat", sans-serif;
+  line-height: 140px;
+  margin: 0 auto;
+  max-width: 902px;
+  margin-top: 25px;
+  margin-bottom: 109px;
+  position: relative;
+}
+
+.page-header .container .header-main h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 3px;
+  background-color: #ffffff;
+  bottom: -54px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.page-header .container .header-main button {
+  font-size: 0.875em;
+  font-family: "Montserrat", sans-serif;
+  width: 160px;
+  height: 40px;
+  border: 3px solid #ffffff;
+}
+/*# sourceMappingURL=style.css.map */

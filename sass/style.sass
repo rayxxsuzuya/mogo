@@ -1,0 +1,74 @@
+
+$font-mont: 'Montserrat', sans-serif
+$font-kaus: 'Kaushan Script', cursive
+
+
+body 
+	font-size: 16px
+	font-family: 'Roboto', sans-serif
+
+.page-header
+	background-image: url(../img/header-bg.png)
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center
+	.container
+		.navbar
+			padding-top: 20px
+			display: flex
+			align-items: center
+			margin-left: 0 !important
+			.logo
+				vertical-align: text-top
+		.collapse
+			&.navbar-collapse
+				.navbar-nav
+					.nav-item
+						margin-right: 58px
+						&:nth-child(7)
+							margin-right: 0
+						&:nth-child(6)
+							margin-right: 26px
+						&:nth-child(5)
+							margin-right: 38px
+						&:nth-child(4)
+							margin-right: 44px
+						&:nth-child(3)
+							margin-right: 44px
+						&:nth-child(2)
+							margin-right: 44px
+						&:nth-child(1)
+							margin-right: 42px
+						.nav-link
+							font-size: 0.875em
+							font-family: $font-mont
+		.header-main
+			span
+				margin-top: 141px
+				font-family: $font-kaus
+				font-size: 4.5em
+			h1
+				font-size: 9.375em
+				font-family: $font-mont
+				line-height: 140px
+				margin: 0 auto
+				max-width: 902px
+				margin-top: 25px
+				margin-bottom: 109px
+				position: relative
+				&::after
+					content: ''
+					display: block
+					position: absolute
+					width: 60px
+					height: 3px
+					background-color: #ffffff
+					bottom: -54px
+					left: 50%
+					transform: translateX(-50%)
+			button
+				font-size: 0.875em
+				font-family: $font-mont
+				width: 160px
+				height: 40px
+				border: 3px solid #ffffff
