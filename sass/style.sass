@@ -42,6 +42,23 @@ body
 						.nav-link
 							font-size: 0.875em
 							font-family: $font-mont
+							transition: 0.3s
+							color: #fff	
+							position: relative
+							&:hover
+								color: #fce38a
+							&::after
+								content: ''
+								display: block
+								height: 3px
+								width: 77%
+								position: absolute
+								background-color: #fce38a
+								top: 34px
+								display: none
+								transition: 0.3s
+							&:hover::after
+								display: block
 		.header-main
 			span
 				margin-top: 141px
@@ -72,3 +89,32 @@ body
 				width: 160px
 				height: 40px
 				border: 3px solid #ffffff
+				margin-bottom: 157px
+		.row
+			.col
+				button
+					border: none
+					border-top: 3px solid rgba(255, 255, 255, 0.5)
+					text-align: start
+					font-family: $font-mont
+					padding-left: 0
+					padding-right: 0
+					font-size: 1.125em
+					padding-top: 16px
+					margin-bottom: 18px
+					outline: none
+					opacity: 0.7
+					position: relative
+					&.active
+						border-color: #fff
+						opacity: 1
+						&::before
+							display: block
+							content: ''
+							position: absolute
+							width: 70px
+							height: 3px
+							background-color: #f38181
+							top: -3px
+					span
+						font-size: 1.333em
